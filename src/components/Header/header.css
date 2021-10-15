@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 56px;
+    position: sticky;
+    top: 0;
+    background-color: var(--dark-mode-bg-header);
+    padding: var(--padding-container-default);
+    border-bottom: var(--dark-mode-border);
+    z-index: 100;
+}
+
+.icon{
+    cursor: pointer;
+}
+.left, .center, .right{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.left{
+    gap: 20px;
+}
+.center{
+    gap: 10px;
+}
+.right{
+    gap: 26px;
+}
+
+.yt-logo-text{
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 24px;
+}
+.country-code{
+    font-size: 10px;
+    position: relative;
+    color: var(--dark-mode-text-gray);
+    margin: 0 0 18px 4px;
+    font-weight: 600;
+}
+.yt-logo-link{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 4px;
+}
+.yt-logo{
+    height: 60%;
+}
+.profile-pic{
+    border-radius: 50%;
+    height: 85%;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.search-input{
+    height: 100%;
+    min-width: 592px;
+    background-color: hsl(var(--dark-mode), 0%, 7%);
+    font-size: 16px;
+    border: var(--dark-mode-border);
+    padding: 10px;
+    border-radius: 2px 0 0 2px;
+}
+.search-input::placeholder{
+    color: var(--dark-mode-text-gray);
+}
+.search-icon{
+    height: 100%;
+    width: 60px;
+    background-color: var(--dark-mode-bg-gray);
+    display: grid;
+    place-items: center;
+    border-radius: 0 2px 2px 0;
+}
+.search-mic-icon{
+    background-color: var(--dark-mode-bg-main);
+    border-radius: 50%;
+}

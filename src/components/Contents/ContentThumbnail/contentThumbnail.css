@@ -1,0 +1,12 @@
+.ContentThumbnail{
+
+}
+
+.content-wrapper{
+    width: 400px;
+    height: 500px;
+    background-color: blue;
+}
+.content-thumbnail-img{
+    width: 100%;
+}

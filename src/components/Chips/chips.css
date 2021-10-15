@@ -1,0 +1,33 @@
+.chips{
+    height: 56px;
+    width: 100%;
+    background-color: var(--dark-mode-bg-header);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: var(--padding-container-default);
+    border-bottom: var(--dark-mode-border);
+    position: sticky;
+}
+
+
+.chip{
+    height: 85%;
+    padding: 0 12px;
+    background-color: var(--dark-mode-bg-gray);
+    border-radius: 50px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    border: 1px solid #4B4B4C;
+
+}
+.chip-title{
+    font-size: .90rem;
+    font-weight: 400;
+}
+
+.chip-icon-more{
+    position: absolute;
+    right: 18px;
+}
