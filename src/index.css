@@ -10,6 +10,7 @@
   --dark-mode-text-gray-secondary: #aaa;
 
   --padding-container-default: 8px 28px;
+  min-width: 484px;
 }
 
 *{
@@ -30,6 +31,7 @@ input:hover{
 ::-webkit-scrollbar{
   width: 8px;
   height: 8px;
+
 }
 ::-webkit-scrollbar-thumb{
   background: #AAAAAA;
@@ -41,3 +43,4 @@ input:hover{
 ::-webkit-scrollbar-track{
   background: transparent;
 }
+

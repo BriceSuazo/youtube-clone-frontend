@@ -27,6 +27,9 @@ const Header = () => {
                 <MicIcon className="icon search-mic-icon"/>
             </div>
             <div className="right">
+                <div className="search-icon-phone">
+                    <SearchIcon className="icon"/>
+                </div>
                 <VideoCallOutlinedIcon className="icon"/>
                 <AppsIcon className="icon"/>
                 <NotificationsNoneIcon className="icon"/>

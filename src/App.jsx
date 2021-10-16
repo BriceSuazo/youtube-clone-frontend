@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/Header/Header';
-import Chips from './components/Chips/Chips';
+// import Chips from './components/Chips/Chips';
 import LeftNavigation from './components/LeftNavigation/LeftNavigation';
 import Contents from './components/Contents/Contents';
 
@@ -9,9 +9,9 @@ function App() {
     <div className="App">
       <Header />
       <div className="content-container-vertical">
-        <LeftNavigation />
+        <LeftNavigation className="left-nav"/>
         <div className="content-container-horizontal">
-          <Chips />
+          {/* <Chips /> */}
           <Contents />
         </div>
       </div>

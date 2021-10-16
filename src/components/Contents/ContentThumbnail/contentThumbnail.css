@@ -3,10 +3,60 @@
 }
 
 .content-wrapper{
-    width: 400px;
-    height: 500px;
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    width: 288px;
+    /* height: 500px; */
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 2px;
+    border: 1px transparent solid;
+    margin-bottom: 18px;
+}
+.content-wrapper:focus{
+    border: var(--dark-mode-border);
 }
 .content-thumbnail-img{
     width: 100%;
+}
+.content-info{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+
+}
+.content-info-texts{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.content-thumbnail-profile-pic{
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+}
+.content-thumbnail-title{
+    font-weight: bold;
+    font-size: 18px;
+    word-wrap: break-word;
+}
+.content-thumbnail-uploader{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.content-info-texts-bottom{
+    color: var(--dark-mode-text-gray);
+    display: flex;
+    gap: 10px;
+}
+.content-thumbnail-uploader-name{
+    color: var(--dark-mode-text-gray);
+}
+.content-thumbnail-views{
+    color: var(--dark-mode-text-gray);
+}
+.content-thumbnail-timeago{
+    color: var(--dark-mode-text-gray);
 }

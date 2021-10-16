@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     height: 56px;
     position: sticky;
     top: 0;
@@ -26,7 +26,10 @@
     gap: 20px;
 }
 .center{
+    width: 50%;
     gap: 10px;
+    justify-content: center;
+    margin: 0 20px;
 }
 .right{
     gap: 26px;
@@ -62,19 +65,23 @@
     display: flex;
     align-items: center;
     height: 100%;
+    width: 100%;
 }
+
 .search-input{
+    width: 100%;
     height: 100%;
-    min-width: 592px;
     background-color: hsl(var(--dark-mode), 0%, 7%);
     font-size: 16px;
     border: var(--dark-mode-border);
     padding: 10px;
     border-radius: 2px 0 0 2px;
+
 }
 .search-input::placeholder{
     color: var(--dark-mode-text-gray);
 }
+
 .search-icon{
     height: 100%;
     width: 60px;
@@ -86,4 +93,18 @@
 .search-mic-icon{
     background-color: var(--dark-mode-bg-main);
     border-radius: 50%;
+}
+.search-icon-phone{
+    display: none;
+}
+
+
+@media only screen and (max-width: 640px) {
+    .center{
+        display: none;
+    }
+    .search-icon-phone{
+        display: grid;
+        place-items: center;
+    }
 }

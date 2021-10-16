@@ -22,6 +22,12 @@ import FeedbackOutlinedIcon from '@mui/icons-material/FeedbackOutlined';
 const LeftNavigation = () => {
     return (
         <div className="leftNavigation">
+            <div className="mobile-nav">
+                <a href="/" className="leftNav-btn"><HomeIcon />Home</a>
+                <a href="/" className="leftNav-btn"><ExploreOutlinedIcon />Explore</a>
+                <a href="/" className="leftNav-btn"><SubscriptionsOutlinedIcon />Subscriptions</a>
+                <a href="/" className="leftNav-btn"><VideoLibraryOutlinedIcon />Library</a>
+            </div>
             <div className="top-button-section">
                 <div className="top-section">
                     <a href="/" className="leftNav-btn"><HomeIcon />Home</a>
