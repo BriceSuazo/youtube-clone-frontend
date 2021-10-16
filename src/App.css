@@ -1,6 +1,6 @@
 .App{
     width: 100vw;
-    background: var(--dark-mode-bg-main);
+    background-color: var(--dark-mode-bg-main);
 }
 
 .content-container-vertical{

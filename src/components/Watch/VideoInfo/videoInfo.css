@@ -1,0 +1,107 @@
+.VideoInfo{
+    width: 100%;
+}
+
+.video-info-top{
+    border-bottom: var(--dark-mode-border);
+}
+
+.video-hashtags{
+    display: flex;
+    gap: 2px;
+}
+.video-hashtag{
+    color: rgb(176, 176, 255);
+    font-size: 12px;
+}
+.video-title{
+    font-size: 1.5rem;
+}
+
+.video-info-center{
+    display: flex;
+    justify-content: space-between;
+}
+.video-info-number{
+    display: flex;
+    gap: 8px;
+    color: var(--dark-mode-text-gray-secondary);
+}
+.video-views, .video-date-uploaded{
+    color: var(--dark-mode-text-gray-secondary);
+}
+
+
+.video-reaction-ratio, .video-share{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.video-reaction-ratio{
+    border-bottom: 4px solid rgb(214, 214, 214);
+}
+.video-like-container, .video-dislike-container, .video-share-container, .video-save-container{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+
+
+.video-info-bottom{
+    display: flex;
+    gap: 14px;
+}
+.video-info-container{
+    width: 100%;
+}
+.uploader-profile-pic{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+}
+.uploader-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.uploader-info-text{
+    display: flex;
+    flex-direction: column;
+}
+.uploader-name{
+    font-size: 18px;
+    font-weight: bold;
+}
+.uploader-sub-count{
+    font-size: 12px;
+    color: var(--dark-mode-text-gray-secondary);
+}
+
+.video-sub-container{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.video-sub-button{
+    background-color: var(--dark-mode-bg-gray);
+    padding: 12px 14px;
+    font-weight: bold;
+}
+
+
+
+.video-description-container{
+    display: flex;
+    flex-direction: column;
+}
+.video-description{
+
+}
+.video-description-showmore{
+    cursor: pointer;
+    color: var(--dark-mode-text-gray-secondary);
+    font-size: 12px;
+}
